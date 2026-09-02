@@ -80,7 +80,6 @@ class EncryptUtilsTest {
 
         assertEquals("ENC('YeqVr9MakSFbgxEec9sBwg==')",
                 EncryptUtil.encryptWithPrefix("ENC('YeqVr9MakSFbgxEec9sBwg==')"));
-
     }
 
     @Test

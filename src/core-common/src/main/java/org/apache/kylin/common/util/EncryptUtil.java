@@ -101,6 +101,9 @@ public class EncryptUtil {
     }
 
     public static String encryptWithPrefix(String value) {
+        if (isEncrypted(value)) {
+            return value;
+        }
         return ENC_PREFIX + encrypt(value) + ENC_SUBFIX;
     }
 
